@@ -10,7 +10,7 @@ const projects = [
     title: 'Virtual Assistant',
     description: 'A virtual assistant created using HTML, CSS, and JavaScript. The virtual assistant listens for voice commands and responds with spoken feedback. Additionally, it can execute commands that allow for web navigation and open installed applications based on user instructions.',
     image: Image,
-    link: '', 
+    link: 'https://virtualassistantshifra.netlify.app/', 
   },
   {
     id: 2,
