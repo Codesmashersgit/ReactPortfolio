@@ -87,7 +87,7 @@ function Nav() {
             </a>
           </li>
           <li className='py-2'>
-            <a href='#project' className='text-xl text-white' onClick={handleMenuItemClick}>
+            <a href='#projects' className='text-xl text-white' onClick={handleMenuItemClick}>
               Projects
             </a>
           </li>
