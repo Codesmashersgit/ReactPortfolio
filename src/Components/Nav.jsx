@@ -17,39 +17,39 @@ function Nav() {
   return (
     <nav className='bg-slate-400 w-screen fixed top-0 z-50'>
       <div className='flex justify-between items-center h-16 px-4'>
-        <h1 className='font-semibold text-2xl md:text-3xl text-white'>
+        <h1 className='font-semibold text-2xl md:text-3xl'>
           Portfolio
         </h1>
 
     
         <ul className='hidden md:flex gap-10 mr-6'>
           <li>
-            <a href='#landing' className='hover:border-b-2 hover:border-slate-100 transition duration-300 text-white'>
+            <a href='#landing' className='hover:border-b-2 hover:border-slate-100 transition duration-300'>
               Home
             </a>
           </li>
           <li>
-            <a href='#about' className='hover:border-b-2 hover:border-slate-100 transition duration-300 text-white'>
+            <a href='#about' className='hover:border-b-2 hover:border-slate-100 transition duration-300 '>
               About
             </a>
           </li>
           <li>
-            <a href='#projects' className='hover:border-b-2 hover:border-slate-100 transition duration-300 text-white'>
+            <a href='#projects' className='hover:border-b-2 hover:border-slate-100 transition duration-300'>
               Projects
             </a>
           </li>
           <li>
-            <a href='#contact' className='hover:border-b-2 hover:border-slate-100 transition duration-300 text-white'>
+            <a href='#contact' className='hover:border-b-2 hover:border-slate-100 transition duration-300 '>
               Contact
             </a>
           </li>
           <li>
-            <a href='https://github.com/Codesmashersgit' aria-label='GitHub Profile' className='text-2xl text-white'>
+            <a href='https://github.com/Codesmashersgit' aria-label='GitHub Profile' className='text-2xl'>
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href='https://www.linkedin.com/in/sudhanshu-raj-45b205250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' aria-label='LinkedIn Profile' className='text-2xl text-white'>
+            <a href='https://www.linkedin.com/in/sudhanshu-raj-45b205250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' aria-label='LinkedIn Profile' className='text-2xl'>
               <FaLinkedin />
             </a>
           </li>
@@ -87,7 +87,7 @@ function Nav() {
             </a>
           </li>
           <li className='py-2'>
-            <a href='#projects' className='text-xl text-white' onClick={handleMenuItemClick}>
+            <a href='#project' className='text-xl text-white' onClick={handleMenuItemClick}>
               Projects
             </a>
           </li>

@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-800 text-white text-center">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+        <h2 className="text-3xl font-bold mb-6 font-mono">Contact Me</h2>
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
           <input
             type="text"
